@@ -20,7 +20,7 @@ use const false;
 /**
  * Helper class used throughout the console application.
  */
-class Utilss
+class Utils
 {
 
     /**
