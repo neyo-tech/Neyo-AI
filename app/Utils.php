@@ -117,9 +117,8 @@ class Utils
                     return true;
                 }
             }
-            $fileTypeExtension = strtolower($fileTypeExtension);
-            $fileTypeName      = strtolower($fileTypeName);
-            $fileTypeName      = str_replace(' ', '', $fileTypeName);
+            $fileTypeName = strtolower($fileTypeName);
+            $fileTypeName = str_replace(' ', '', $fileTypeName);
             if (strcmp($fileType, $fileTypeName) === 0) {
                 return true;
             }
